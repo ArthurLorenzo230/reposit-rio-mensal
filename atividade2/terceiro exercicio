@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arthur Lorenzo</title>
+</head>
+<body>
+    <header>
+        <h1>Conflito Eminente na Coreia :(</h1>
+        <nav>
+            <ul>
+                <li><a href="#origem">Origem do Conflito</a></li>
+                <li><a href="#situacao-atual">Situação Atual</a></li>
+                <li><a href="#impactos">Impactos Globais</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="origem">
+            <h2>Origem do Conflito</h2>
+            <p>A tensão entre Coreia do Norte e Coreia do Sul remonta à Guerra da Coreia (1950-1953), que resultou na divisão da península coreana em duas nações distintas.</p>
+        </section>
+        
+        <section id="situacao-atual">
+            <h2>Situação Atual</h2>
+            <p>Recentemente, houve um aumento das provocações militares, com testes de mísseis por parte da Coreia do Norte e exercícios militares conjuntos entre Coreia do Sul e EUA.</p>
+        </section>
+        
+        <section id="impactos">
+            <h2>Impactos Globais</h2>
+            <p>O conflito tem implicações globais, envolvendo potências como os Estados Unidos, China e Rússia, além de afetar a economia e a segurança internacional.</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 - Análise Geopolítica</p>
+    </footer>
+</body>
+</html>
+
+

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio do Restaurante</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            text-align: center;
+        }
+        table {
+            width: 60%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #ffcc00;
+            font-weight: bold;
+        }
+        tfoot td {
+            background-color: #ffcc00;
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Cardápio do Restaurante</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nome do Prato</th>
+                <th>Descrição</th>
+                <th>Preço</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Spaghetti Carbonara</td>
+                <td>Massa italiana com molho cremoso de queijo, bacon e ovos.</td>
+                <td>&euro; 12,50</td>
+            </tr>
+            <tr>
+                <td>Filé Mignon</td>
+                <td>Filé suculento grelhado, servido com molho de vinho e batatas rústicas.</td>
+                <td>&euro; 22,90</td>
+            </tr>
+            <tr>
+                <td>Cheesecake de Frutas Vermelhas</td>
+                <td>Sobremesa cremosa com calda artesanal de frutas vermelhas.</td>
+                <td>&euro; 8,90</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Aceitamos pagamentos em dinheiro, cartão de crédito e débito.</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>
