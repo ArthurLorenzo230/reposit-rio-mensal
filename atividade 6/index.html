@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Figuras Separadas</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    .figura {
+      margin-bottom: 40px;
+    }
+
+    .titulo {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .retangulo {
+      width: 200px;
+      height: 100px;
+      background-color: lightgray;
+    }
+
+    .quadrado {
+      width: 100px;
+      height: 100px;
+      background-color: lightblue;
+    }
+
+    .linha-horizontal {
+      width: 200px;
+      height: 4px;
+      background-color: black;
+    }
+
+    .cruz {
+      position: relative;
+      width: 200px;
+      height: 200px;
+    }
+
+    .cruz .linha-horizontal {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+    }
+
+    .cruz .linha-vertical {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      width: 4px;
+      height: 100%;
+      background-color: black;
+      transform: translateX(-50%);
+    }
+
+    .quadrado-pintado {
+      width: 100px;
+      height: 100px;
+      background-color: purple;
+    }
+
+    .quadrado-duplo {
+      width: 120px;
+      height: 120px;
+      background-color: red;
+      position: relative;
+    }
+
+    .quadrado-duplo .interno {
+      width: 60px;
+      height: 60px;
+      background-color: yellow;
+      position: absolute;
+      top: 30px;
+      left: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="figura">
+    <div class="titulo">1. Retângulo</div>
+    <div class="retangulo"></div>
+  </div>
+
+  <div class="figura">
+    <div class="titulo">2. Quadrado</div>
+    <div class="quadrado"></div>
+  </div>
+
+  <div class="figura">
+    <div class="titulo">3. Linha Horizontal</div>
+    <div class="linha-horizontal"></div>
+  </div>
+
+  <div class="figura">
+    <div class="titulo">4. Linha Horizontal e Vertical (cruz)</div>
+    <div class="cruz">
+      <div class="linha-horizontal"></div>
+      <div class="linha-vertical"></div>
+    </div>
+  </div>
+
+  <div class="figura">
+    <div class="titulo">5. Quadrado Pintado</div>
+    <div class="quadrado-pintado"></div>
+  </div>
+
+  <div class="figura">
+    <div class="titulo">6. Quadrado com outro dentro (cada um de uma cor)</div>
+    <div class="quadrado-duplo">
+      <div class="interno"></div>
+    </div>
+  </div>
+
+</body>
+</html>
